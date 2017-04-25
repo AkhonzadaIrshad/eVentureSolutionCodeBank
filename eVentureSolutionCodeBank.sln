@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsoleApplications", "ConsoleApplications", "{1CC506FD-14B0-41BA-82C4-7FD3BB14149E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesAndEvents", "DelegatesAndEvents\DelegatesAndEvents.csproj", "{6EBBF623-225E-4142-AFD8-CB43352F2B62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CVBuilderApplicationDemo", "CVBuilderApplicationDemo\CVBuilderApplicationDemo.csproj", "{1BD92AC4-7044-4EDF-A444-0C3A6F41025B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,11 +19,16 @@ Global
 		{6EBBF623-225E-4142-AFD8-CB43352F2B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EBBF623-225E-4142-AFD8-CB43352F2B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EBBF623-225E-4142-AFD8-CB43352F2B62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BD92AC4-7044-4EDF-A444-0C3A6F41025B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD92AC4-7044-4EDF-A444-0C3A6F41025B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD92AC4-7044-4EDF-A444-0C3A6F41025B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD92AC4-7044-4EDF-A444-0C3A6F41025B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6EBBF623-225E-4142-AFD8-CB43352F2B62} = {1CC506FD-14B0-41BA-82C4-7FD3BB14149E}
+		{1BD92AC4-7044-4EDF-A444-0C3A6F41025B} = {1CC506FD-14B0-41BA-82C4-7FD3BB14149E}
 	EndGlobalSection
 EndGlobal

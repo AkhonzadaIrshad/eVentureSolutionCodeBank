@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CVBuilderApplicationDemo.CV.EducationalInfo">
+    <Position X="3.5" Y="6.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAACAAAABAAAAAAAAAAAACAQAAAgEAAAAAAAAEAAAgA=</HashCode>
+      <FileName>CV\EducationalInfo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Institute" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CVBuilderApplicationDemo.CV.ExperienceInfo">
+    <Position X="9.5" Y="6.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAACABAAAAAAAAAAAAAAAAACAAAQBgAAAAQAAAAAAgA=</HashCode>
+      <FileName>CV\ExperienceInfo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Firm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CVBuilderApplicationDemo.CV.Firm">
+    <Position X="9.5" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAIEAAACAAAAAAAAAgA=</HashCode>
+      <FileName>CV\Firm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Address" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CVBuilderApplicationDemo.CV.Image">
+    <Position X="6.5" Y="11.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAMAAAACAAAAAAAAgA=</HashCode>
+      <FileName>CV\Image.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CVBuilderApplicationDemo.CV.Institute">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAIEAAACAAAAAAAAAgA=</HashCode>
+      <FileName>CV\Institute.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Address" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CVBuilderApplicationDemo.CV.PersonalInfo">
+    <Position X="9.5" Y="9.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AQACAAEAACAAAAAgAAAAQAUAEEIFABACAAAAAAAAAgA=</HashCode>
+      <FileName>CV\PersonalInfo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Image" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CVBuilderApplicationDemo.CV.Project">
+    <Position X="6.5" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAIAAAAAQAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>CV\Project.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CVBuilderApplicationDemo.CV.Skill">
+    <Position X="6.5" Y="9.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAIAAAACAAAQAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>CV\Skill.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SkillLevel" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CVBuilderApplicationDemo.Common.Country">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAgAAQAIAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Common\Country.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CVBuilderApplicationDemo.Common.City">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAgAAQAIAIEAAACAAAAAAAAAgA=</HashCode>
+      <FileName>Common\City.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Country" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CVBuilderApplicationDemo.Common.Address">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAIAAAACAAAAAAAAgAAAAIAAAAAAgA=</HashCode>
+      <FileName>Common\Address.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="City" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CVBuilderApplicationDemo.CV.Cv">
+    <Position X="6.5" Y="6.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAACBBAAAAAAgAAAAIAAQAAAAEAAAAAAQAABAAAAAwA=</HashCode>
+      <FileName>CV\Cv.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PersonalInfo" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="ExperienceInfos" />
+      <Property Name="EducationalInfos" />
+      <Property Name="Skills" />
+      <Property Name="Projects" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Enum Name="CVBuilderApplicationDemo.CV.SkillLevel">
+    <Position X="3.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAEAAA=</HashCode>
+      <FileName>CV\SkillLevel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
