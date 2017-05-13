@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesAndEvents", "Deleg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CVBuilderApplicationDemo", "CVBuilderApplicationDemo\CVBuilderApplicationDemo.csproj", "{1BD92AC4-7044-4EDF-A444-0C3A6F41025B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyWordsIn(C-Sharp)Demo", "KeyWordsIn(C-Sharp)Demo\KeyWordsIn(C-Sharp)Demo.csproj", "{D0772D57-B252-458F-90D1-D921AC52FCF6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyWordsInC-SharpDemo", "KeyWordsIn(C-Sharp)Demo\KeyWordsInC-SharpDemo.csproj", "{D0772D57-B252-458F-90D1-D921AC52FCF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

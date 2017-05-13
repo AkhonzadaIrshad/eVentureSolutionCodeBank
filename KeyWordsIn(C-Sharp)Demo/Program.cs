@@ -12,15 +12,27 @@ namespace KeyWordsIn_C_Sharp_Demo
         {
             //Creating object 
             //Partial classes object treat as single object 
-            @class @class=new @class();
+            @class @class  = new @class();
             //Setting Value
             @class.@string = "This is string";
-            @class.@int = 123;
-            @class.@float = 0.00f;
+            @class.@int    = 123;
+            @class.@float  = 0.00f;
             //Getting Value
+
+
             Console.WriteLine(@class.@string);
-            Console.WriteLine(@class.@int);
-            Console.WriteLine(@class.@float);
+            Console.WriteLine(@class.@int   );
+            Console.WriteLine(@class.@float );
+            //sizeof
+            Console.WriteLine($"Size of int   {sizeof(int  )  }\n" +
+                              $"Size of float {sizeof(float)  }\n" +
+                              $"Size of char  {sizeof(char )  }\n"
+                              );
+            //typeof
+            Console.WriteLine($"Size of int   {typeof(int  )  }\n" +
+                              $"Size of float {typeof(float)  }\n" +
+                              $"Size of char  {typeof(char )  }\n"
+                              );
             Console.ReadKey();
         }
     }
